@@ -28,8 +28,7 @@
         layout="@layout/message_alert"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_message_white_36dp"/>
+        android:layout_height="wrap_content"/>
 
     <Space
         android:layout_width="0dp"

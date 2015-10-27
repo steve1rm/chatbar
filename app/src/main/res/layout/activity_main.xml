@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.ssd.chatbar.MainActivity">
 
+    <include layout="@layout/chat_bar"/>
+
+    <Button
+        android:id="@+id/btnIncreamentMsgAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Test Increament Message Alert"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
 </RelativeLayout>
