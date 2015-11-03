@@ -17,4 +17,15 @@
         android:fontFamily="sans-serif-condensed"
         android:textSize="18sp"
         android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnIncreamentMsgAlert"
+        android:layout_centerInParent="true"
+        android:text="Reset Messages"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
 </RelativeLayout>
