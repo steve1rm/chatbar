@@ -19,10 +19,11 @@ public class MainActivity extends AppCompatActivity {
         final Button btnIncrement = (Button)findViewById(R.id.btnIncreamentMsgAlert);
         final Button btnResetMessages = (Button)findViewById(R.id.btnReset);
 
+        /* Test the increment of the message alerts */
         btnIncrement.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /* Test the increment of the message alerts */
+                /* Make the message alert appear if we have an unread message */
                 tvMessageCounter.setVisibility(View.VISIBLE);
                 Integer counter = Integer.valueOf(tvMessageCounter.getText().toString());
                 counter++;
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         btnResetMessages.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /* Reset the message alert back to 0
+                   and hide it so it doesn't look like we have any messages */
                 tvMessageCounter.setText("0");
                 tvMessageCounter.setVisibility(View.INVISIBLE);
             }
