@@ -1,7 +1,7 @@
 # chatbar
 Tutorial on how to create a chat bar that is reusable and efficient that you can easily include in your layout for the apps you create. The design is very flat (no nested layouts) so less cpu rendering which increases app preformance.
 
-Learn more here www.androidbox.me
+Learn more here http://androidbox.me/efficient-reusable-layouts/linearlayout-and-framelayout/
 
 Video Presentation https://youtu.be/wSunuMPGYn8
 
